@@ -1,3 +1,6 @@
+### The Samps
+- Grab the beats from [here](http://www.analoguedrums.com/details-bm.php) and toss 'em in `assets/audio`
+
 ### Requirements
 - Node.js and NPM (to host the project locally)
 - Bower (`npm install bower`)
