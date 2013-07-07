@@ -1,0 +1,11 @@
+{
+  "name": "Sounds",
+  "version": "0.0.1",
+  "description": "Messing with the Web Audio API",
+  "dependencies": {
+    "express": "*"
+  },
+  "repository": "",
+  "author": "",
+  "license": "BSD"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Sounds",
+  "version": "0.0.1",
+  "main": "index.html",
+  "dependencies": {
+    "requirejs": "~2.1.6",
+    "underscore": "~1.4.4"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ]
+}
