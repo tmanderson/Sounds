@@ -8,7 +8,6 @@ define('buffman', function() {
         var xhr = new XMLHttpRequest();
         xhr.open('GET', path + file, true);
         xhr.responseType = 'arraybuffer';
-
         xhr.onload = function() {
             context.decodeAudioData(this.response, function(buffer) {
                 bufferGroups[group][bufferGroups[group].indexOf(file)] = buffer;
@@ -16,7 +15,6 @@ define('buffman', function() {
                 console.error(e.message);
             });
         };
-
         xhr.send(null);
     }
 
@@ -35,12 +33,9 @@ define('buffman', function() {
         play: function(group, index) {
             var src = context.createBufferSource();
             src.buffer = bufferGroups[group][index];
-            _.each(filters, function(filter,i) {
-                src.connect(filter);
-                filter.connect(context.destination)
-            });
+            src.connect(context.destination);
             src.start(0);
             return this;
         }
-    };
+    }
 });
