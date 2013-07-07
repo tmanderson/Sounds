@@ -20,6 +20,6 @@ straight forward.
 
 ### Useful Resources/Tips
 - `cmd+ctrl+i` for the chrome developer tools
-- (Web Audio API Book)[http://chimera.labs.oreilly.com/books/1234000001552/pr01.html]
-- (Web Audio Spec)[https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html]
-- (Getting Started with Web Audio)[http://www.html5rocks.com/en/tutorials/webaudio/intro]
+- [Web Audio API Book](http://chimera.labs.oreilly.com/books/1234000001552/pr01.html)
+- [Web Audio Spec](https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html)
+- [Getting Started with Web Audio](http://www.html5rocks.com/en/tutorials/webaudio/intro)
